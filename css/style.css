@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(44, 63, 111) url(../imagens/fundo.png)repeat-x;
+}
+
+#container{
+   /* border: 1px solid black;*/
+    width: 750px;
+    margin: 0 auto;
+}
+#topo{
+     height: 150px;
+     background: url(../imagens/detalhe-topo.png) no-repeat right top;
+     padding-top: 25px;
+    /* border: 1px solid springgreen;*/
+}
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(../imagens/logo.png)no-repeat center;
+    text-indent: -3000px;/*ira retirar o titulo da tela, porem nao irar esconder do usuario, par anao gerar problemas com robos de busca em se questionar pq vc esta escondendo conteúdo do usuario*/
+}
+/*Barra de Navegação(MENU)*/
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#topo ul{
+    margin-top: 30px ;
+    float: left;/*è preciso aplicar tb aqui para nao perder o efeito de caixa*/
+}
+#topo ul li{
+    float: left;   
+}
+#topo ul li a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.4em 1.3em;
+    background: linear-gradient(to bottom, #ffffff, #ff0000);
+    margin-right: 5px;
+    border: 0.5px solid rgba(253, 253, 253, 0.7);
+    border-radius: 5px 5px 15px 15px;
+    text-decoration: none;
+    color: ;
+    /*background: url(../imagens/divisor.png) no-repeat left center;*/  
+}
+#topo ul .primeiro a{
+    /*background: none;*/
+}
+#topo ul a:hover{
+    color: #ffffff;
+    border: 1px solid red;
+}
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.inter #navegacao a#inter,
+body.fotos #navegacao a#fotos{
+    color: #ffffff;
+    background: #de003e;
+    
+}
+
+
