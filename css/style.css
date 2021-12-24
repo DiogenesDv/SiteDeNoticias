@@ -62,8 +62,66 @@ body.brasil #navegacao a#brasil,
 body.inter #navegacao a#inter,
 body.fotos #navegacao a#fotos{
     color: #ffffff;
-    background: #de003e;
-    
+    background: #de003e; 
 }
 
-
+#conteudo{
+    background: #f5f5f5;
+    margin-top: 65px;
+} 
+#tres-colunas #primario{
+    border: 1px solid black;
+    width: 265px;
+    float: left;
+    margin: 0 0 20px 190px;/*Para poder dar espaço para o conteudo-lateral se encaixar*/
+}
+#duas-colunas #primario{
+    border: 1px solid black;
+    width: 555px;
+    float: left;
+    margin: 0 0 20px 190px;/*Para poder dar espaço para o conteudo-lateral se encaixar*/
+}
+#uma-colunas #primario{
+    border: 1px solid black;
+    width: 750px;
+    float: left;
+    margin: 0 0 20px 0px;/*Para poder dar espaço para o conteudo-lateral se encaixar*/
+}
+#secundario{
+    border: 1px solid rgb(242, 0, 0);
+    width: 265px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+#lateral{
+    border: 1px solid rgb(3, 32, 255);
+    width: 175px;
+    float: left;
+    margin: 0 0 20px -750px;/*Para poder dar espaço para o conteudo-lateral se encaixar*/
+}
+.caixa{
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+    margin: 10px 0;
+    padding: 5px;
+}
+h2{
+    font-size: 1.1em;
+    background: #294c71;
+    color: #ffffff;
+    padding: 5px;
+}
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+#container-rodape{
+    border: 1px solid rgb(1, 255, 56);
+    clear: both;
+    padding: 20px;
+}
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color: #ffffff;
+}
