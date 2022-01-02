@@ -31,6 +31,12 @@ ul{
     padding: 0;
     list-style: none;
 }
+/*
+a:link, a:visited{
+    color: #eb1033;
+    padding: 2px;
+}
+*/
 #topo ul{
     margin-top: 30px ;
     float: left;/*è preciso aplicar tb aqui para nao perder o efeito de caixa*/
@@ -219,6 +225,7 @@ img.imagem-principal{
 }
 #lista-noticias li a{
     text-decoration: none;
+    /*color: black;*/
 }
 #lista-noticias li a h3{
     font-size: 0.8em;
